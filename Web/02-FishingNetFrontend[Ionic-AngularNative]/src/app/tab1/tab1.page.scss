@@ -1,0 +1,77 @@
+.log {
+  text-align: center;
+  padding-top: 50px;
+  margin-bottom: 50px;
+
+  img {
+    height: 210px;
+    width: 210px;
+  }
+}
+
+swiper-container {
+  ion-card {
+    box-shadow: none;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    height: 175px;
+    border-radius: 10px;
+    
+    ion-card-content {
+      font-size: 14px;
+      line-height: 22px;
+    }
+
+    ionc-card-header {
+      font-size: 17px;
+      line-height: 22px;
+    }
+    ion-card-title {
+       font-weight: 700;
+       font-size: 17px;
+    }
+  }
+}
+
+.stat {
+  background: #FFFFFF;
+  border-radius: 20px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-size: 25px;
+  letter-spacing: -0.408px;
+  box-shadow: none;
+  ion-card-title {
+    font-weight: 700;
+  }
+  ion-card {
+    box-shadow: none;
+    border-radius: 10px;
+    filter: drop-shadow(0px 3px 7px rgba(0, 0, 0, 0.25));
+    height: 100px;
+
+    ion-card-title {
+      margin-top: -10px;
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 17px;
+      letter-spacing: -0.408px;
+    }
+
+    ion-card-content {
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 17px;
+      margin-top: -15px;
+    }
+  }
+}
+ion-img {
+  margin: 0 auto;
+  height: 60px;
+  width: 60px;
+  padding-top: 10px;
+}
