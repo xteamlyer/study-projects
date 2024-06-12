@@ -1,0 +1,140 @@
+<ion-header class="ion-no-border" collapse="fade">
+  <ion-toolbar>
+    <ion-title>Мой антивирус</ion-title>
+  </ion-toolbar>
+</ion-header>
+<ion-content [fullscreen]="true" mode="md">
+  <!-- <div class="container">
+    <svg>
+      <circle class="fill"></circle>
+      <circle class="progress"></circle>
+    </svg>
+  </div> -->
+  <div class="log">
+    <img src="assets/tab1.svg" alt="">
+  </div>
+  <swiper-container class="mySwiper ion-no-border" space-between="-10" slides-per-view="2.1" free-mode="true">
+    <swiper-slide>
+      <ion-card button="true">
+        <ion-card-header>
+          <ion-card-title>Комплексная проверка</ion-card-title>
+        </ion-card-header>
+        <ion-card-content>
+          Проверка всех файлов и приложений
+        </ion-card-content>
+      </ion-card>
+    </swiper-slide>
+    <swiper-slide>
+      <ion-card button="true">
+        <ion-card-header>
+          <ion-card-title>Быстрая проверка</ion-card-title>
+        </ion-card-header>
+        <ion-card-content>
+          Проверка установленных приложений
+        </ion-card-content>
+      </ion-card>
+    </swiper-slide>
+    <swiper-slide>
+      <ion-card button="true">
+        <ion-card-header>
+          <ion-card-title>Выборочная проверка</ion-card-title>
+        </ion-card-header>
+        <ion-card-content>
+          Проверка файлов и приложений
+        </ion-card-content>
+      </ion-card>
+    </swiper-slide>
+  </swiper-container>
+  <ion-card class="stat">
+    <ion-card-header>
+      <ion-card-title>Статистика</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      <ion-card>
+        <ion-grid>
+          <ion-row>
+            <ion-col size="2">
+              <ion-img src="assets/stat.svg"></ion-img>
+            </ion-col>
+            <ion-col size="10">
+              <ion-card-header>
+                <ion-card-title>Потенциально опасных сайта посещено</ion-card-title>
+              </ion-card-header>
+              <ion-card-content>
+                за последнюю неделю
+              </ion-card-content>
+            </ion-col>
+          </ion-row>
+        </ion-grid>
+      </ion-card>
+      <ion-card>
+        <ion-grid>
+          <ion-row>
+            <ion-col size="2">
+              <ion-img src="assets/stat.svg"></ion-img>
+            </ion-col>
+            <ion-col size="10">
+              <ion-card-header>
+                <ion-card-title>Звонка злоумышленников заблокировано</ion-card-title>
+              </ion-card-header>
+              <ion-card-content>
+                за последнюю неделю
+              </ion-card-content>
+            </ion-col>
+          </ion-row>
+        </ion-grid>
+      </ion-card>
+      <ion-card>
+        <ion-grid>
+          <ion-row>
+            <ion-col size="2">
+              <ion-img src="assets/stat.svg"></ion-img>
+            </ion-col>
+            <ion-col size="10">
+              <ion-card-header>
+                <ion-card-title>Злоумышленника опознанно</ion-card-title>
+              </ion-card-header>
+              <ion-card-content>
+                за последнюю неделю
+              </ion-card-content>
+            </ion-col>
+          </ion-row>
+        </ion-grid>
+      </ion-card>
+      <ion-card>
+        <ion-grid>
+          <ion-row>
+            <ion-col size="2">
+              <ion-img src="assets/stat.svg"></ion-img>
+            </ion-col>
+            <ion-col size="10">
+              <ion-card-header>
+                <ion-card-title>Использований средств аудио/видео записи</ion-card-title>
+              </ion-card-header>
+              <ion-card-content>
+                за последнюю неделю
+              </ion-card-content>
+            </ion-col>
+          </ion-row>
+        </ion-grid>
+      </ion-card>
+      <ion-card>
+        <ion-grid>
+          <ion-row>
+            <ion-col size="2">
+              <ion-img src="assets/stat.svg"></ion-img>
+            </ion-col>
+            <ion-col size="10">
+              <ion-card-header>
+                <ion-card-title>Подозрительных письма получено</ion-card-title>
+              </ion-card-header>
+              <ion-card-content>
+                за последнюю неделю
+              </ion-card-content>
+            </ion-col>
+          </ion-row>
+        </ion-grid>
+      </ion-card>
+    </ion-card-content>
+  </ion-card>
+</ion-content>

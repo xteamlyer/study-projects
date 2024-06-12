@@ -1,0 +1,8 @@
+{
+  "name": "FishingNet",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular",
+  "id": "e939ab6e"
+}

@@ -1,0 +1,24 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33516.290
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InfoSec Conference", "Travel4Everyone\InfoSec Conference.csproj", "{A24AB1A5-A6A1-4399-B1A1-F7134167005E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		neww|Any CPU = neww|Any CPU
+		neww|x64 = neww|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A24AB1A5-A6A1-4399-B1A1-F7134167005E}.neww|Any CPU.ActiveCfg = neww|Any CPU
+		{A24AB1A5-A6A1-4399-B1A1-F7134167005E}.neww|Any CPU.Build.0 = neww|Any CPU
+		{A24AB1A5-A6A1-4399-B1A1-F7134167005E}.neww|x64.ActiveCfg = neww|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9D2FE8A9-42EA-4B6F-8028-3DAC5245551C}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">ZMIIKA</string>
+    <string name="default_player_name">ВЛАДОС</string>
+    <string name="about_game">ZMIIKA- это версия популярной игры "Змейка". Игрок управляет движением змейки на игровом поле, собирая еду и увеличивая свой размер. Цель игры - набрать как можно больше очков, не попадая на свой хвост или стены и поля. По мере продвижения в игре, скорость змейки увеличивается, усложняя прохождение уровней. <span class="about">"ZMIIKA"</span> может быть реализована на разных платформах и иметь различный дизайн и уровни сложности.</string>
+    <string name="source_code">Разработчик</string>
+    <string name="title_about">Об игре</string>
+    <string name="game_over">Гаме овер!</string>
+    <string name="your_score">Ваш счет: %s</string>
+    <string name="try_again">Ещё раз!</string>
+    <string name="high_score">Таблица лидеров</string>
+    <string name="player_name">Имя игрока</string>
+    <string name="score">Счет</string>
+    <string name="new_game">Новая игра</string>
+    <string name="settings">Настройки</string>
+    <string name="about">Об игре</string>
+    <string name="title_settings">Настройки</string>
+    <string name="save">Сохранить</string>
+    <string name="player_name_updated">Имя игрока измененно</string>
+</resources>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Оставить отзыв</title>
+    <link rel="stylesheet" href="assets\css\feedback.css" />
+</head>
+<body>
+    <audio id="music" src="assets\media\sound1.mp3" autoplay="" loop="" onplaying="music.volume = 0.25;" style="display: none;"></audio>
+    <h1>Оставьте<br>отзыв</h1>
+    <div class="container">
+        <form>
+            <div class="row">
+                <div class="col-25">
+                    <label for="fname">Имя</label>
+                </div>
+                <div class="col-75">
+                    <input type="text" id="fname" name="firstname" placeholder="Ваше имя">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                    <label for="email">Email</label>
+                </div>
+                <div class="col-75">
+                    <input type="email" id="email" name="mailid" placeholder="Ваш email">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                    <label for="country">От куда вы</label>
+                </div>
+                <div class="col-75">
+                    <select id="country" name="country">       
+                        <option value="russia">Россия</option>    
+                        <option value="ukraine">Украина</option>
+                        <option value="other">Другая страна</option>   
+                    </select>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                    <label for="feed_back">Отзыв</label>
+                </div>
+                <div class="col-75">
+                    <textarea id="subject" name="subject" placeholder="Тут ваш отзыв" style="height:200px"></textarea>
+                </div>
+            </div>
+            <div class="row">
+                <a class="btn-submit" href="submit.html">Отправить</a>
+            </div>
+        </form>
+    </div>
+    <br><br><br>
+    <div id="home">
+        <a class="btn" href="index.html">Обратно домой</a>
+    </div>
+</body>
+</html>

@@ -1,0 +1,1 @@
+# Attempts at python (shitty)

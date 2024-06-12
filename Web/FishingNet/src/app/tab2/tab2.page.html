@@ -1,0 +1,187 @@
+<ion-header class="ion-no-border" collapse="fade">
+  <ion-toolbar>
+    <ion-title>
+      Модули
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+<ion-content [fullscreen]="true" mode="md">
+  <ion-card id="open-antifishing" expand="block" button="true">
+    <ion-grid>
+      <ion-row>
+        <ion-col size="2">
+          <ion-img src="assets/modules/antifishing.svg"></ion-img>
+        </ion-col>
+        <ion-col size="10">
+          <ion-card-header>
+            <ion-card-title>Антифишинговый модуль</ion-card-title>
+          </ion-card-header>
+          <ion-card-content>
+            Поможет определить, является ли
+            сайт фишинговым
+          </ion-card-content>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+    <ion-modal trigger="open-antifishing" [initialBreakpoint]="1" [breakpoints]="[0, 1]" mode="ios">
+      <ng-template>
+        <div class="block">
+          <ion-header class="ion-no-border" mode="md">
+            <ion-toolbar>
+              <ion-title>Антифишинговый модуль</ion-title>
+            </ion-toolbar>
+            <ion-img src="assets/stikers/antifishing.svg"></ion-img>
+          </ion-header>
+          <p>Модуль предназначен для определения, является ли веб-сайт фишинговым. Он способен обнаруживать
+            поддельные сайты,
+            используя анализ множества характеристик. Обработка и оценка этих характеристик осуществляются на наших
+            серверах,
+            поэтому устройство само по себе не будет нагружаться.</p>
+          <ion-button shape="round">Подключить за 99 ₽/мес</ion-button>
+        </div>
+      </ng-template>
+    </ion-modal>
+  </ion-card>
+  <ion-card id="open-antifrod" expand="block" button="true">
+    <ion-grid>
+      <ion-row>
+        <ion-col size="2">
+          <ion-img src="assets/modules/antifrod.svg"></ion-img>
+        </ion-col>
+        <ion-col size="10">
+          <ion-card-header>
+            <ion-card-title>Антифрод модуль</ion-card-title>
+          </ion-card-header>
+          <ion-card-content>
+            Определяет и оценивает номер,
+            с которого поступает звонок или
+            сообщение
+          </ion-card-content>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+    <ion-modal trigger="open-antifrod" [initialBreakpoint]="1" [breakpoints]="[0, 1]" mode="ios">
+      <ng-template>
+        <div class="block">
+          <ion-header class="ion-no-border" mode="md">
+            <ion-toolbar>
+              <ion-title>Антифрод модуль</ion-title>
+            </ion-toolbar>
+            <ion-img src="assets/stikers/communication.svg"></ion-img>
+          </ion-header>
+          <p>Модуль анализирует и оценивает номер, с которого поступает звонок или сообщение. Он применяет гибкие
+            правила, которые
+            позволяют настраивать обработку таких звонков и сообщений в соответствии с Вашими предпочтениями.</p>
+          <ion-button shape="round">Подключить за 59 ₽/мес</ion-button>
+        </div>
+      </ng-template>
+    </ion-modal>
+  </ion-card>
+  <ion-card id="open-antivishing" expand="block" button="true">
+    <ion-grid>
+      <ion-row>
+        <ion-col size="2">
+          <ion-img src="assets/modules/antivishing.svg"></ion-img>
+        </ion-col>
+        <ion-col size="10">
+          <ion-card-header>
+            <ion-card-title>Антивишинговый модуль</ion-card-title>
+          </ion-card-header>
+          <ion-card-content>
+            Распознает речь человека и
+            определяет подозрительные
+            формулировки и шаблоны
+          </ion-card-content>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+    <ion-modal trigger="open-antivishing" [initialBreakpoint]="1" [breakpoints]="[0, 1]" mode="ios">
+      <ng-template>
+        <div class="block">
+          <ion-header class="ion-no-border" mode="md">
+            <ion-toolbar>
+              <ion-title>Антивишинговый модуль</ion-title>
+            </ion-toolbar>
+            <ion-img src="assets/stikers/warning.svg"></ion-img>
+          </ion-header>
+          <p>Модуль осуществляет механическое распознавание речи собеседника на другом конце звонка и обнаруживает
+            подозрительные
+            формулировки и шаблоны, которые часто используются злоумышленниками. Вы будете получать оповещение, если
+            на другом конце
+            звонка будет обнаружен потенциальный злоумышленник.</p>
+          <ion-button shape="round">Подключить за 99 ₽/мес</ion-button>
+        </div>
+      </ng-template>
+    </ion-modal>
+  </ion-card>
+  <ion-card id="open-antirecord" expand="block" button="true">
+    <ion-grid>
+      <ion-row>
+        <ion-col size="2">
+          <ion-img src="assets/modules/recorddetect.svg"></ion-img>
+        </ion-col>
+        <ion-col size="10">
+          <ion-card-header>
+            <ion-card-title>Детектор записи</ion-card-title>
+          </ion-card-header>
+          <ion-card-content>
+            Определяет какими функциями
+            телефона пользуется приложение
+            в данный момент
+          </ion-card-content>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+    <ion-modal trigger="open-antirecord" [initialBreakpoint]="1" [breakpoints]="[0, 1]" mode="ios">
+      <ng-template>
+        <div class="block">
+          <ion-header class="ion-no-border" mode="md">
+            <ion-toolbar>
+              <ion-title>Детектор записи</ion-title>
+            </ion-toolbar>
+            <ion-img src="assets/stikers/antirecord.svg"></ion-img>
+          </ion-header>
+          <p>Модуль определяет какими функциями устройства пользуется приложение в данный момент: геолокация, камера
+            или микрофрон.
+            Если Вы не давали разрешение на такую слежку, модуль направит Вам предупреждение.</p>
+          <ion-button shape="round">Подключить за 39 ₽/мес</ion-button>
+        </div>
+      </ng-template>
+    </ion-modal>
+  </ion-card>
+  <ion-card id="open-emailchecker" expand="block" button="true">
+    <ion-grid>
+      <ion-row>
+        <ion-col size="2">
+          <ion-img src="assets/modules/emailchecker.svg"></ion-img>
+        </ion-col>
+        <ion-col size="10">
+          <ion-card-header>
+            <ion-card-title>Модуль проверки почты</ion-card-title>
+          </ion-card-header>
+          <ion-card-content>
+            Анализирует входящие сообщения
+            по источнику отправки письма,
+            а также содержимому
+          </ion-card-content>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+    <ion-modal trigger="open-emailchecker" [initialBreakpoint]="1" [breakpoints]="[0, 1]" mode="ios">
+      <ng-template>
+        <div class="block">
+          <ion-header class="ion-no-border" mode="md">
+            <ion-toolbar>
+              <ion-title>Модуль проверки почты</ion-title>
+            </ion-toolbar>
+            <ion-img src="assets/stikers/email.svg"></ion-img>
+          </ion-header>
+          <p>Анализирует входящие сообщения по источнику отправки письма, а также его содержимому и предупреждает о
+            том, что письмо
+            является подозрительным.</p>
+          <ion-button shape="round">Подключить за 99 ₽/мес</ion-button>
+        </div>
+      </ng-template>
+    </ion-modal>
+  </ion-card>
+</ion-content>

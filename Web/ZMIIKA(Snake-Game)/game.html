@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>ZMIIKA</title>
+    <link rel="stylesheet" href="assets\css\style.css" />
+</head>
+<body>
+    <audio id="music" src="assets\media\sound2.mp3" autoplay="" loop="" onplaying="music.volume = 0.1;" style="display: none;"></audio>
+    <audio id="food" src="assets\media\sound1.mp3" type="audio/mp3"></audio>
+    
+
+    <div id="game-over-screen">
+        <p>Вы проиграли</p>
+        <a class="btn" id="reload-btn">Заново</a>
+        <a class="btn" href="index.html">Обратно домой</a>
+    </div>
+    <p>Очки: <span id="score"></span><br /></p>
+    <a class="btn" href="index.html">Обратно домой</a>
+    <canvas id="canvas"></canvas>
+
+    <script type="text/javascript" src="assets\js\script.js"></script>
+</body>
+</html>
